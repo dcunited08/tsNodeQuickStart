@@ -1,6 +1,6 @@
 class Bob {
     hotDog() {
-        return "HotDog";
+        return "HotDog 2";
     }
 }
 /**
