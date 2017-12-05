@@ -7,5 +7,5 @@ class Bob {
 
 exports.helloWorld = function helloWorld(req: any, res: any) {
     const tst = new Bob();
-    return tst.hotDog();
+    res.status(200).send(tst.hotDog());
 };
